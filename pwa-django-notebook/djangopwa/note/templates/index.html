@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="titre">
+    {% if user.is_authenticated %}
+        <h4>Bonjour {{ user.username }}!</h4>
+    {% endif%}
+    <div class="presentationapp">
+        <p><img class="moi" src="static/images/cerf.png"><strong>Bonjour voici une petite application vous permettant d'enregistrer
+            vos observations, vos indices de présences et autres traces d'animaux . Nicos</strong></p>
+    </div>
+</div>
+<!-- Footer
+<footer>
+	<div class="contact">
+	<a class="" href="https://www.facebook.com/wilder.ness.319"><i class="fab fa-facebook-square fa-2x"></i></a>
+	<a class="" href="https://www.instagram.com/wilder_ness76/?hl=fr"><i class="fab fa-instagram fa-2x"></i></a>
+	<a href="{% url 'meet:contact' %}"><i class="far fa-envelope fa-2x"></i></a>
+	<a class="" href="https://github.com/Nicolas-Turck"><i class="fab fa-github-square fa-2x"></i></a>
+	<a class="" href="https://www.linkedin.com/in/nicolas-turck-035888195/?originalSubdomain=fr"><i class="fab fa-linkedin fa-2x"></i></a>
+    </div>
+</footer>
+              end Footer -->
+{% endblock %}

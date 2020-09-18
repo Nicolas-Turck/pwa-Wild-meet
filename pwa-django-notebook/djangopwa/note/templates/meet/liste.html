@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<!-- Search form -->
+
+<section>
+
+	<div class="container">
+
+{% for post in liste %}
+    <figure class="col">
+
+      {% if post.title %}
+        <div>
+        <a href="{% url 'meet:fiche' pk=post.pk %}"><h3>{{ post.title }}</h3></a>
+            {% endif %}
+        </div>
+        <div>
+            {% if post.photo %}<a href="{% url 'meet:fiche'  pk=post.pk %}" class=""><img src=" {{ post.photo.url }}" /></a>{% endif %}
+        </div>
+    </figure>
+ {% endfor %}
+	</div>
+
+
+</section>
+{% endblock %}

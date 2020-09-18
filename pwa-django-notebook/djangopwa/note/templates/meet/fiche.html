@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block content %}
+				<!-- Banner -->
+
+				<!-- Main -->
+
+<section class="fiche">
+	{% if post.title %}
+	<h3>{{ post.title }}</h3>
+	{% endif %}
+	{% if post.photo %}
+    <a href="#" class="imagefiche"><img src=" {{ post.photo.url }}" /></a>
+	{% endif %}
+	<div class="">
+	<p>{% if post.types %}<strong>Type:</strong>  {{ post.types }}{% endif %}</p>
+	<p><strong>Biotopes:</strong>  {% if post.biotopes %}{{ post.biotopes }}{% endif %}</p>
+	<p><strong>Relief:</strong>  {% if post.relief %}{{ post.relief }}{% endif %}</p>
+	{% if post.content %}
+	<p><strong>Descriptions:</strong>  {{ post.content }}</p>
+	{% endif %}
+	<p><i class="fas fa-map-marker-alt"></i>  {% if post.locations %}{{ post.locations }}{% endif %}, {% if post.country %}{{ post.country }}{% endif %}</p>
+
+    <p><strong>date:</strong> {{ post.datetime}}</p>
+	</div>
+	<div class="iconactionfiche">
+	<a href="{% url 'meet:post_edit' pk=post.pk %}"><button  class="button button1" >Modifier</button></a>
+		<a href="{% url 'meet:post_del' pk=post.pk %}"><button  class="button button2" >Supprimer</button></a>
+	</div>
+</section>
+
+
+<!-- Footer -->
+{% endblock %}

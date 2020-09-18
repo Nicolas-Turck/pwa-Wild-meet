@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+				<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<h2>Contact</h2>
+					</div>
+				</section>
+			<!-- Main -->
+                <div class="formulaire">
+                    <div class="justify-content-center">
+                        <div class="col-lg-3 col-md-6">
+                            <form method="post">
+                                {% csrf_token %}
+                                {{ form.as_p }}
+                                <button type="submit">Envoyer</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+				<!-- Footer -->
+				{% endblock %}
