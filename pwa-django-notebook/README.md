@@ -2,7 +2,8 @@
 
 # icon of pwa ![alt text](https://raw.githubusercontent.com/Nicolas-Turck/pwa-django-notebook/master/djangopwa/note/static/images/icons8-wild-animals-sign-80.png)
 # pwa installed in mobile device ![alt text](https://raw.githubusercontent.com/Nicolas-Turck/pwa-django-notebook/master/djangopwa/note/static/images/appinstalled.jpg)
-# pwa fullscreen in mobile device  ![alt text](https://raw.githubusercontent.com/Nicolas-Turck/pwa-django-notebook/master/djangopwa/note/static/images/homemobile.PNG)
+# pwa fullscreen in mobile device  ![alt text](https://github.com/Nicolas-Turck/pwa-Wild-meet/blob/master/pwa-django-notebook/apprun.png)
+# form in app  ![alt text](https://github.com/Nicolas-Turck/pwa-Wild-meet/blob/master/pwa-django-notebook/appform.png)
 
 # i use this TUTO for my app https://medium.com/beginners-guide-to-mobile-web-development/convert-django-website-to-a-progressive-web-app-3536bc4f2862
 # create my project with
@@ -47,7 +48,7 @@ add this variable in setting.py PWA_SERVICE_WORKER_PATH = os.path.join(BASE_DIR,
 
 ![alt text](https://raw.githubusercontent.com/Nicolas-Turck/pwa-django-notebook/master/djangopwa/note/static/images/psw.png)
 
-# add balise meta in base.html for load pwa szervicesworker
+# add balise meta in base.html for load pwa servicesworker
 
 {% load pwa %}
 
