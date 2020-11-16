@@ -1,5 +1,7 @@
 ## wild meet progressive web app
 
+## link for test this pwa https://wildnotebookpwa.pythonanywhere.com/
+
 # icon of pwa ![alt text](https://raw.githubusercontent.com/Nicolas-Turck/pwa-django-notebook/master/djangopwa/note/static/images/icons8-wild-animals-sign-80.png)
 # pwa installed in mobile device ![alt text](https://raw.githubusercontent.com/Nicolas-Turck/pwa-django-notebook/master/djangopwa/note/static/images/appinstalled.jpg)
 # pwa fullscreen in mobile device  ![alt text](https://github.com/Nicolas-Turck/pwa-Wild-meet/blob/master/pwa-django-notebook/apprun.png)
