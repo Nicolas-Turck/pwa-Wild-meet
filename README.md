@@ -2,10 +2,13 @@
 
 ## link for test this pwa https://wildnotebookpwa.pythonanywhere.com/
 
-# icon of pwa ![alt text](https://raw.githubusercontent.com/Nicolas-Turck/pwa-django-notebook/master/djangopwa/note/static/images/icons8-wild-animals-sign-80.png)
-# pwa installed in mobile device ![alt text](https://raw.githubusercontent.com/Nicolas-Turck/pwa-django-notebook/master/djangopwa/note/static/images/appinstalled.jpg)
-# pwa fullscreen in mobile device  ![alt text](https://github.com/Nicolas-Turck/pwa-Wild-meet/blob/master/pwa-django-notebook/apprun.png)
-# form in app  ![alt text](https://github.com/Nicolas-Turck/pwa-Wild-meet/blob/master/pwa-django-notebook/appform.png)
+# icon of pwa ![alt text](https://github.com/Nicolas-Turck/pwa-Wild-meet/blob/master/pwa-django-notebook/icons8-wild-animals-sign-80(1).png)
+
+# pwa fullscreen in mobile device  ![alt text](https://github.com/Nicolas-Turck/pwa-Wild-meet/blob/master/pwa-django-notebook/home.png)
+
+# items registered in bdd  ![alt text](https://github.com/Nicolas-Turck/pwa-Wild-meet/blob/master/pwa-django-notebook/items.png)
+
+# form in app  ![alt text](https://github.com/Nicolas-Turck/pwa-Wild-meet/blob/master/pwa-django-notebook/news.png)
 
 # i use this TUTO for my app https://medium.com/beginners-guide-to-mobile-web-development/convert-django-website-to-a-progressive-web-app-3536bc4f2862
 # create my project with
@@ -36,19 +39,19 @@ $ pip install django-progressive-web-app
 
 add 'pwa' in settings.py in INSTALLED_APP
 
-![alt text](https://raw.githubusercontent.com/Nicolas-Turck/pwa-django-notebook/master/djangopwa/note/static/images/installedapps.png)
+
 
 # add app 'pwa' in urls in root directory
 
 path(‘’, include(‘pwa.urls’)),
 
-![alt text](https://raw.githubusercontent.com/Nicolas-Turck/pwa-django-notebook/master/djangopwa/note/static/images/pwaurls.png)
+
 
 # create file servicesworker.js in /static/js/
 
 add this variable in setting.py PWA_SERVICE_WORKER_PATH = os.path.join(BASE_DIR, 'posts/static/js', 'serviceworker.js')
 
-![alt text](https://raw.githubusercontent.com/Nicolas-Turck/pwa-django-notebook/master/djangopwa/note/static/images/psw.png)
+
 
 # add balise meta in base.html for load pwa servicesworker
 
