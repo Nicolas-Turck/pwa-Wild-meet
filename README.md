@@ -2,7 +2,7 @@
 
 ## link for test this pwa https://wildnotebookpwa.pythonanywhere.com/
 
-# icon of pwa ![alt text](https://github.com/Nicolas-Turck/pwa-Wild-meet/blob/master/pwa-django-notebook/icons8-wild-animals-sign-80(1).png)
+# icon of pwa ![alt text](https://github.com/Nicolas-Turck/pwa-Wild-meet/blob/master/pwa-django-notebook/icons8-wild-animals-sign-80.png)
 
 # pwa fullscreen in mobile device  ![alt text](https://github.com/Nicolas-Turck/pwa-Wild-meet/blob/master/pwa-django-notebook/home.png)
 
